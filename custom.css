@@ -1,0 +1,41 @@
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    background: url(images/loader/preloader@2x.gif) center no-repeat #ffffffdd;
+    text-align: center;
+} 
+#product-tabs #tabs-1, #product-tabs #tabs-2, #product-tabs #tabs-3
+{
+    overflow-x: auto;
+}
+.shop-3 .product .product-image
+{
+	border: 2px #777777 solid;
+    border-radius: 10px;
+}
+.shop-3 .product .product-image img
+{
+    border-radius: 10px;
+}
+.product-imgs .slide img
+{
+	width: 99% !important;
+	border: 2px #777777 solid;
+    border-radius: 10px;
+}
+.gradient180deg
+{
+	background-image: linear-gradient(180deg, #E23438, #E23438, #00000055);
+}
+#primary-menu div ul li.current, #primary-menu ul li.current 
+{
+	background-image: linear-gradient(180deg, #E23438, #E23438, #00000055)!important;
+}
+#primary-menu div ul li:hover, #primary-menu ul li:hover 
+{
+	background-image: linear-gradient(180deg, #E23438, #E23438, #00000055)!important;
+}
