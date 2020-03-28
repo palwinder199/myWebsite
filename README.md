@@ -15,7 +15,7 @@ LinkedIn: palwinder199,
 
 Facebook: palwinder199,
 
-Instagram: palwidner199,
+Instagram: palwinder199,
 
 SnapChat: palwinder.199,
 
