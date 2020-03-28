@@ -255,7 +255,7 @@ if(isset($_SESSION["ClientToken"]) and isset($_POST["token"]) and $_POST["token"
 			$Subject = "MyFriendSid.com Login Password Changed";
 			$Body = "Your login password changed successfully."; 
 			$AltBody = "Your login password changed successfully.";
-			$Title = "MyFriendSid.com";
+			$Title = "Palwinder199.com";
 			$Es = SendMail($To, $Subject, $Body, $AltBody, $Title);
 			
 			/*******end send email otp*******/
@@ -321,7 +321,6 @@ if(isset($_SESSION["ClientToken"]) and isset($_POST["token"]) and $_POST["token"
 				$Body="Name: ".$_REQUEST["lpform-name"]."<br>Phone: ".$_REQUEST["lpform-phone"]."<br>Email: ".$_REQUEST["lpform-email"]."<br>From: ".WebsiteFullURL()."<br>Message: ".$_REQUEST["lpform-description"];
 				$AltBody=$Subject;
 				$Title=$Subject;
-				//SendMail("rkjewellerskapurthala@gmail.com",$Subject,$Body,$AltBody,$Title);
 				$arr["data"]["mailViaSmtp"]=SendMail("palwinder199@gmail.com",$Subject,$Body,$AltBody,$Title);
 				
 				echo json_encode($arr);
@@ -383,7 +382,6 @@ if(isset($_SESSION["ClientToken"]) and isset($_POST["token"]) and $_POST["token"
 				$Body="Name: ".$_REQUEST["quick-contact-form-name"]."<br>Phone: ".$_REQUEST["quick-contact-form-phone"]."<br>Email: ".$_REQUEST["quick-contact-form-email"]."<br>From: ".WebsiteFullURL()."<br>Message: ".$_REQUEST["quick-contact-form-message"];
 				$AltBody=$Subject;
 				$Title=$Subject;
-				//SendMail("rkjewellerskapurthala@gmail.com",$Subject,$Body,$AltBody,$Title);
 				$arr["data"]["mailViaSmtp"]=SendMail("palwinder199@gmail.com",$Subject,$Body,$AltBody,$Title);
 				
 				echo json_encode($arr);
@@ -445,7 +443,6 @@ if(isset($_SESSION["ClientToken"]) and isset($_POST["token"]) and $_POST["token"
 				$Body="Name: ".$_REQUEST["product-quote-form-name"]."<br>Phone: ".$_REQUEST["product-quote-form-phone"]."<br>Email: ".$_REQUEST["product-quote-form-email"]."<br>From: ".WebsiteFullURL()."<br>Message: ".$_REQUEST["product-quote-form-message"];
 				$AltBody=$Subject;
 				$Title=$Subject;
-				//SendMail("rkjewellerskapurthala@gmail.com",$Subject,$Body,$AltBody,$Title);
 				$arr["data"]["mailViaSmtp"]=SendMail("palwinder199@gmail.com",$Subject,$Body,$AltBody,$Title);
 				
 				echo json_encode($arr);
@@ -507,7 +504,6 @@ if(isset($_SESSION["ClientToken"]) and isset($_POST["token"]) and $_POST["token"
 				$Body="Name: ".$_REQUEST["template-contactform-name"]."<br>Phone: ".$_REQUEST["template-contactform-phone"]."<br>Email: ".$_REQUEST["template-contactform-email"]."<br>From: ".WebsiteFullURL()."<br>Message: ".$_REQUEST["template-contactform-message"];
 				$AltBody=$Subject;
 				$Title=$Subject;
-				//SendMail("rkjewellerskapurthala@gmail.com",$Subject,$Body,$AltBody,$Title);
 				$arr["data"]["mailViaSmtp"]=SendMail("palwinder199@gmail.com",$Subject,$Body,$AltBody,$Title);//$arr["data"]["mailViaSmtp"]=SendMail("enrage.bakhtavar@gmail.com",$Subject,$Body,$AltBody,$Title);
 				echo json_encode($arr);
 				exit;
